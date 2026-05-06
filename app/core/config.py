@@ -26,7 +26,7 @@ class Settings(BaseSettings):
     llm_model: str = "claude-sonnet-4-6"
 
     # LLM - Deepseek
-    deepseek_api_key: str = "sk-cdc20dfe3ce744cdbec75961e87b7336"
+    deepseek_api_key: str = ""
     deepseek_api_base: str = "https://api.deepseek.com"
     deepseek_model: str = "deepseek-chat"
 
